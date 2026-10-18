@@ -1,0 +1,47 @@
+body {
+	background-color: #e92f16;
+}
+h1 {
+    font-family: 'Italiana', serif;
+    color: #02fff7;
+}
+h2, h3 {
+	font-family: 'UnifrakturMaguntia', cursive;
+    color:rgb(4, 186, 95);
+}
+
+p, li,figure, figcaption, legend {
+	font-family: 'Italiana', serif;
+    color: #02fff7;
+
+}
+input, textarea, select, button {
+    font-family: 'Italiana', serif;
+    color: #6702ff;
+}
+
+.wrapper {
+
+  display: flex;
+  gap: 2rem;
+  padding: 0 1rem;
+
+}
+
+.wrapper div {
+
+  flex: 1;
+
+}
+
+.wrapper.stack {
+
+  flex-direction: column;
+
+}
+
+.wrapper.stack > div {
+
+  flex: 0 0 auto;
+
+}
